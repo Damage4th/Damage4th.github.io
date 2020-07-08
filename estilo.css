@@ -1,0 +1,195 @@
+body{
+	font-family: Arial;
+	background-color: #F2F2F2;
+}
+header #top{
+	display: flex;
+}
+h1{
+	font-size: 40px;
+}
+header h1{
+	padding-left: 350px;
+	color: black;
+}
+h2{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+}
+
+header nav {
+	background-color: deepskyblue;
+	padding: 15px;
+	margin-left: 0px;
+	margin-bottom: 50px;
+}
+header nav a{
+	color: #000;
+	text-decoration: none;
+	padding: 20px;
+
+}
+header nav a:hover{
+	color: #c0c0c0;
+	background-color: #000;
+}
+main nav {
+	padding: 15px;
+	margin-left: 0px;
+	margin-bottom: 50px;
+}
+main nav a{
+	background-color: deepskyblue;
+	color: #000;
+	text-decoration: none;
+	padding: 20px;
+	margin: 20px;
+}
+main nav a:hover{
+	color: #c0c0c0;
+	background-color: red;
+}
+figure{
+
+}
+figure img{
+	width: 1200px;
+	height: 600px;
+}
+#port{
+	display: flex;
+	padding-top: 70px;
+	padding-bottom: 200px;
+}
+.msf{
+	background-color: #01DFD7;
+	
+	margin-left: 300px;
+}
+.msf a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+	padding: 10px;
+}
+.msf a:hover{
+	color: #daa520;
+	background-color:black;
+	padding: 10px;
+}
+
+.jdm{
+	background-color: #01DFD7;
+	padding: 0px;
+	margin-left: 45px;
+}
+.jdm a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+	padding: 10px;
+}
+.jdm a:hover{
+	color: #daa520;
+	background-color:black;
+}
+.film{
+	background-color: #01DFD7;
+	padding:0px;
+	margin-left: 45px;
+}
+.film a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+	padding: 10px;
+}
+.film a:hover{
+	color: #daa520;
+	background-color:black;
+}
+.music{
+	background-color: #01DFD7;
+	padding: 0px;
+	margin-left: 45px;
+}
+.music a{
+	text-decoration: none;
+	display: block;
+	color: #000;
+	padding: 10px;
+}
+.music a:hover{
+	color: #daa520;
+	background-color:black;
+}
+
+}
+
+
+#body figure img{
+	width: 1000px; height: 500px;
+	left: 50%;
+	margin-left:130px;
+}
+#body{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+#parças{
+	padding-left: 130px;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+#trampo{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 500px;
+}
+#port{
+	padding-top: 90px;
+
+}
+#contato{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+#code{
+	padding-bottom: 100px;
+}
+#code figcaption img{
+	width: 1000px;
+	height: 500px;
+	margin-left: 170px;
+}
+#imgcontato{
+	padding-bottom: 100px;
+}
+#imgcontato figcaption img{
+	width: 1000px;
+	height: 500px;
+	margin-left: 170px;
+}
+
+footer{
+	background-color:deepskyblue;
+	padding: 15px;
+}
+
+footer p {
+	text-align: center;
+	color: black;
+}
+footer a {
+	text-decoration: none;
+	color: black;
+
+}
+footer a:hover{
+	background-color:#000;
+	color: #F8FBEF;
+}

@@ -1,0 +1,229 @@
+body{font-family: Arial;
+	background-color: black;
+	position: relative;
+
+}
+header{
+
+}
+#menu{
+	position:absolute;
+	right: 0;
+	margin-top: 20px;
+}
+
+header nav {
+	background-color:red ;
+	padding: 15px;
+	margin-left: 0px;
+	margin-bottom: 50px;
+}
+header nav a{
+	color: #000;
+	text-decoration: none;
+	padding: 20px;
+
+}
+header nav a:hover{
+	color: #ccc;
+	background-color: #000;
+}
+main{
+	font-family: Arial;
+}
+#corpo{
+	display: flex;
+	background-color: black;
+	width: 100%; height: 870px;
+}
+#mae{
+	display: flex;
+	background-color: red;
+	width: 50%; height: 970px;
+	position: relative;
+}
+.primeiraimg{
+	display: flex;
+	justify-content: center;
+}
+.primeiraimg figure{
+	height: 700px;
+	width: 600px;
+}
+.filme{
+	background-color:black;
+	width: 50%; height: 570px;
+	margin-top: 100px;
+}
+.filme01{
+	display: flex;
+	background-color: red;
+	width: 100%; height: 50%;
+	border:2px solid red;
+	margin-bottom: 1px;
+}
+.filmimg01{
+	background-color: white;
+	width: 100%; height: 100%;
+}
+.filmtext01{
+	background-color: #424242;
+	width: 100%; height: 100%;
+}
+
+.filme02{
+	display: flex;
+	background-color: white;
+	width: 100%; height: 50%;
+	border:2px solid red;
+}
+.filmimg02{
+	background-color: white;
+	width: 100%; height: 100%;
+}
+.filmtext02{
+	background-color: #424242;
+	width: 100%; height: 100%;
+}
+.serie{
+	background-color: black;
+	width: 50%; height: 570px;
+	margin-top: 100px;
+}
+.serie01{
+	display: flex;
+	background-color: white;
+	width: 100%; height: 50%;
+	border: 2px solid red;
+	margin-bottom: 1px; 
+}
+.seriimg01{
+	background-color: white;
+	width: 100%; height: 100%;
+}
+.seritext01{
+	width: 100%; height: 100%;
+	background-color: #424242;
+}
+.serie02{
+	display: flex;
+	background-color: white;
+	width: 100%; height: 50%;
+	border:2px solid red;
+}
+.seriimg02{
+	background-color: red;
+	width: 100%; height: 100%;
+
+}
+.seritext02{
+	width:100%; height: 100%;
+	background-color: #424242;	
+}
+figure{
+
+}
+figure img{
+	width: 100%; height: 600px;
+}
+figure  figcaption{
+	left: 0;
+	color: white;
+}
+
+
+footer{
+	background-color:red;
+	padding: 15px;
+}
+
+footer p {
+	text-align: center;
+	color: black;
+}
+footer a {
+	text-decoration: none;
+	color: black;
+
+}
+footer a:hover{
+	background-color:#000;
+	color: #F8FBEF;
+}
+p{
+	text-align: center;
+	color: gray;
+}
+table{ 
+	border: solid 2px;
+	color: gray;
+	border-collapse: collapse; text-align: center;
+}
+th{
+	text-align: center;
+	border:solid 2px;
+}
+td{
+	border:solid 2px;
+}
+tr{
+	cols
+}
+iframe{
+	align-items: center;
+}
+.tabela{
+	display: flex;
+	justify-content: center;	
+	padding-bottom: 35px;
+}
+h1{
+	text-align: center;
+	color: red;
+	margin-bottom: 2px solid red;
+	background-color: #424242;
+	padding: 15px;
+}
+h2{
+	text-align: center;
+	color: gray;
+	font-size: 30px;
+}
+h3{
+	text-align: center;
+	color:red;
+	font-size: 25px;
+}
+h4{
+	font-size: 25px;
+	text-align: center;
+	color: red;
+}
+.tabelafilme{
+	display: flex;
+	justify-content: center;
+	margin-top: 140px;
+	margin-bottom: 50px;
+}
+.tabelaserie{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 70px;
+}
+.tabelafilme table{
+	width: 50%;
+	height: 500px;
+}
+.tabelaserie table{
+	width: 50%;
+	height: 500px;
+}
+iframe{
+	width:1100; height:500;
+}
+.filme h2{
+	color: red;
+}
+.serie h2{
+	color: red;
+}
